@@ -1,0 +1,27 @@
+.navigation {
+  background-color: #807f7f;
+}
+
+.nav {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+  }
+
+  &__item {
+    padding: 32px 0;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+.active {
+  border-bottom: 2px solid #ff4200;
+}

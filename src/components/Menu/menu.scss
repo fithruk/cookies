@@ -1,0 +1,66 @@
+.menu {
+  background-color: #333333;
+  padding: 12px 0;
+
+  &__logo {
+    font-family: "Dancing Script";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 1px;
+  }
+
+  &__sup-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.details {
+  width: (262 / 960) * 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+  &__counter {
+    position: relative;
+  }
+
+  &__view {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #ff4200;
+    right: 0;
+    top: 0;
+    color: #fff;
+    border-radius: 50%;
+  }
+
+  &__item {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+
+    &:last-child {
+      cursor: pointer;
+      position: relative;
+    }
+  }
+
+  &__arrow {
+    transition: 0.3s linear;
+  }
+
+  &__arrow-rotated {
+    transition: 0.3s linear;
+    transform: rotate(180deg);
+  }
+}

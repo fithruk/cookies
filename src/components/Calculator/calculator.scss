@@ -1,0 +1,35 @@
+.calculator {
+  margin-top: 100px;
+}
+
+.calc {
+  &__table {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: repeat(4, 60px);
+    row-gap: 5px;
+    column-gap: 24px;
+    align-items: center;
+  }
+
+  &__item {
+    text-align: center;
+    color: #4d4d4d; //
+    font-family: Rubik;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+  }
+}
+
+.result {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+
+  &__item:last-child {
+    grid-column: 3 / span 4;
+  }
+}

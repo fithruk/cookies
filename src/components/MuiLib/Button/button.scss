@@ -1,0 +1,25 @@
+.button {
+  border-radius: 90px;
+  background: #ff4200; //
+  color: #fff; //
+  display: inline-flex;
+  padding: 14px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s linear;
+
+  &:hover {
+    background-color: #e53b00; //
+  }
+}
+
+.rounded {
+  display: flex;
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+}
